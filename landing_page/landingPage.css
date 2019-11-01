@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #e5bdd6;
+}
+
+nav > a {
+  margin: 0px 12px;
+  text-decoration: none;
+  color: #000000;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+#backgroundIMG {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 70px;
+  top: 100%-70px; /*place the footer at the very bottom minus 70 pixels to show the 70px overlay*/
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    255,
+    192,
+    203,
+    0.5
+  ); /* pink background *rgb(255,192,203)* with 50% opacity or 0.5 opacity */
+  z-index: 10;
+}
+
+#overlay > h1 {
+  font-size: 50px;
+  margin: 5px 10px;
+}

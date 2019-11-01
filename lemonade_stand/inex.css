@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: darkturquoise;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 75px;
+  margin: 3% 10%;
+  float: left;
+}
+
+header {
+  background-color: #f78383;
+  height: 150px;
+}
+
+main {
+  height: auto;
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+  padding: 3%;
+}
+
+nav > a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 1%;
+  background-color: darkturquoise;
+  text-align: center;
+  border: 2px solid white;
+  float: right;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5%;
+}
+
+#profile-pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: rgb(198, 205, 243);
+  margin: 1% auto;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding: 1%;
+}
+
+iframe {
+  padding: 3%;
+}
+footer {
+  text-align: center;
+}
