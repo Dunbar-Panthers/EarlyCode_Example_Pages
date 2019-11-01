@@ -1,0 +1,13 @@
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: lightblue;
+}
+
+nav > a {
+  margin: 0px 12px;
+  text-decoration: none;
+  color: #000000;
+}

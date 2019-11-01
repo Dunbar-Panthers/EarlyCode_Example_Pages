@@ -1,3 +1,6 @@
+- Use the Example Page Ideas to inspire your own creation! Especially for CSS and design!
+- Use the Boiler Plate Code to start your own webpage.
+
 My Website Project
 
 Website Brainstorm
